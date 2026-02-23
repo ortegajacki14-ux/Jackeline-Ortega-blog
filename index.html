@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jackeline Ortega Blog</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playball&family=Cinzel:wght@600&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* SMOOTH SCROLL */
+html {
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('OIP 4.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+}
+
+.top-area {
+    background-image: url('OIP1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+
+/* TOP PHOTOS */
+.top-photos {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.top-photos img {
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border:2px solid #999;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.top-photos img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* NAME */
+.name {
+    font-family: 'Cinzel', serif;
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    color: #9a20eb;
+    text-shadow: 1px 1px 4px rgba(173, 16, 16, 0.15);
+}
+
+/* MENU */
+.menu {
+    margin: 18px;
+}
+
+.menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #34ac1c;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #008ba8;
+    border-bottom: 2px solid #b64900;
+    padding-bottom: 3px;
+}
+
+/* SECTIONS */
+.section {
+    width:70%;
+    margin:40px auto;
+    text-align:left;
+}
+
+/* SECTION TITLES */
+.title {
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    background:#ffac7c;  
+    color:white;
+    padding:10px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* BOX CONTENT */
+.box {
+    border:2px solid #999;
+    padding:20px;
+    background: #ffe6f0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 10px rgba(46, 33, 33, 0.08);
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* FRIEND SECTION */
+.friend {
+    text-align:center;
+}
+
+.friend img {
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid #999;
+    transition: 0.3s;
+}
+
+.friend img:hover {
+    transform: scale(1.05);
+}
+
+.friend a {
+    text-decoration:none;
+    color:#ca44df;
+}
+
+/* FLEX LAYOUT */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.text-side {
+    width: 55%;
+    line-height: 1.6;
+}
+
+.photo-box {
+     border: 1px solid black;
+    border-radius: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+/* GENERAL STYLING */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    background:#ddadc1;
+    padding:15px 0;
+    text-align:center;
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    color:#444;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TOP AREA -->
+<div class="top-area">
+    <div class="top-photos">
+        <img src="WhatsApp Image 2026-02-22 at 5.20.23 PM (1).jpeg" alt="jackeline Photo 1">
+        <img src="WhatsApp Image 2026-02-22 at 5.20.23 PM (2).jpeg" alt="jackeline Photo 2">
+        <img src="WhatsApp Image 2026-02-22 at 5.20.23 PM.jpeg" alt="jackeline Photo 3">
+        <img src="WhatsApp Image 2026-02-22 at 5.20.24 PM.jpeg" alt="jackeline Photo 4">
+    </div>
+
+    <div class="name">Jackeline Ortega</div>
+
+    <div class="menu">
+        <a href="#about">💖About Me</a>
+        <a href="#dreams">💖Dream &amp; Destinations</a>
+        <a href="#friend">💖Visit My bestie</a>
+        <a href="#goals">💖Life GoalS</a>
+    </div>
+</div>
+
+<div class="section" id="about">
+    <div class="title">About Me</div>
+    <div class="box">
+        <div class="flex">
+            <div class="text-side">
+                <p><strong>Hello!</strong> My name is Jackeline Ortega. I am a Hospitality & Tourism Management student who enjoys blending tradition with innovation, especially in cooking and storytelling.</p>
+                <p><strong>My career goal:</strong> I want to work in sustainable tourism, creating unforgettable guest experiences while protecting our environment.</p>
+                <p>I enjoy cooking traditional recipes, designing creative presentations, and collaborating on group projects.</p>
+            </div>
+
+            <div class="photo-box">
+                <a href="Jackeline.html"></a>
+            </div>
+        </div>
+
+        <!-- EXTRA PHOTO AT THE BOTTOM -->
+        <div class="bottom-photo" style="text-align:center; margin-top:20px;">
+            <img src="WhatsApp Image 2026-02-22 at 5.26.36 PM.jpeg" 
+                 alt="About Me Extra Photo" 
+                 style="width:250px; border-radius:15px; border:2px solid #999;">
+        </div>
+
+    </div>
+</div>
+
+<!-- DREAM DESTINATIONS -->
+<div class="section" id="dreams">
+    <div class="title">Dream &amp; Destinations</div>
+    <div class="box">
+        <p>I dream of visiting Paris, Dubai, and New York because of their fashion, culture, and unique experiences.</p>
+        <ol>
+            <li><strong>Spain</strong> – Culture, food, and hospitality</li> 
+            <li><strong>Japan</strong> – Tradition, innovation, and cuisine</li>
+            <li><strong>Greece</strong> – History, beaches, and tourism</li>
+        </ol>
+    </div>
+</div>
+
+<!-- FRIEND LINK -->
+<div class="section" id="friend">
+    <div class="title">Visit My bestie</div>
+    <div class="box friend">
+        <a href="friend.html">
+            <h2>Carla Carcamo</h2>
+            <img src="WhatsApp Image 2026-02-22 at 5.20.24 PM (1).jpeg" alt="Friend Photo">
+        </a>
+        <p>This is my classmate and friend. We study together and support each other.</p>
+        <p>Click the photo to visit my friend’s page.</p>
+    </div>
+</div>
+
+<!-- LIFE GOALS -->
+<div class="section" id="goals">
+    <div class="title">Life Goals</div>
+    <div class="box">
+        <p><strong>Short Term Goals:</strong></p>
+        <ul>
+  <li>Graduate with excellent grades</li>
+  <li>Gain hands-on resort experience</li>
+  <li>Master accounting and technical writing</li>
+</ul>
+
+        <p><strong>Long Term Goals:</strong></p>
+        <ol>
+  <li>Work in sustainable tourism</li>
+  <li>Travel internationally</li>
+  <li>Build a career in hospitality management</li>
+</ol>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+   Jackeline Ortega - Web Design Class
+</footer>
+
+</body>
+</html>
